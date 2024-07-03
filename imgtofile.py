@@ -8,7 +8,7 @@ def convert(image_path):
     BVal = []
     AVal = []
     XVal, YVal = im.size  # Get the width and height of the image for iterating over
-
+    print(im.size)
     for y in range(YVal):
         for x in range(XVal):
             r, g, b, a = pix[x, y]

@@ -9,7 +9,6 @@ RList = [r[i:i+2] for i in range(0, len(r), 2)]
 GList = [g[i:i+2] for i in range(0, len(g), 2)]
 BList = [b[i:i+2] for i in range(0, len(b), 2)]
 AList = [a[i:i+2] for i in range(0, len(a), 2)]
-
 print(len(BList))
 
 if len(RList) == 1:
